@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96745769321",
+    "project_id": "homeplumber-481f1",
+    "storage_bucket": "homeplumber-481f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96745769321:android:6bee4a67a74a3edcaf95f8",
+        "android_client_info": {
+          "package_name": "com.example.homeplumber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96745769321-mdpvi8cvbqre2jvrml9k0jku1esqscb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrN3_LBSJlkI_H2vyqxhP_fGzAR6FxlAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96745769321-mdpvi8cvbqre2jvrml9k0jku1esqscb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

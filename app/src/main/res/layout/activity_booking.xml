@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookingActivity">
+
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_round_border"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:paddingTop="5dp"
+        android:gravity="start"
+        android:textColorHint="#9B9A9A" />
+
+    <EditText
+        android:id="@+id/etArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_round_border"
+        android:hint="Area"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textAlignment="textStart"
+        android:textColorHint="#9B9A9A" />
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_round_border"
+        android:hint="City"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textAlignment="textStart"
+        android:textColorHint="#9B9A9A" />
+
+    <EditText
+        android:id="@+id/etPincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_round_border"
+        android:hint="Pincode"
+        android:maxLength="6"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:textAlignment="textStart"
+        android:textColorHint="#9B9A9A" />
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round_border"
+        android:text="Book Plumber" />
+
+
+</LinearLayout>
